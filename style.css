@@ -1,4 +1,4 @@
-﻿@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&family=Inter:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&family=Inter:wght@300;400;500;600&display=swap');
 
 /* ======================
    BASE
@@ -13,7 +13,7 @@ body {
   margin: 0;
   font-family: 'Inter', sans-serif;
   background: #fafafa;
-  color: #1f1f1f; /* miglior contrasto testo */
+  color: #1f1f1f; 
   line-height: 1.6;
 }
 
@@ -21,7 +21,7 @@ img {
   max-width: 100%;
   display: block;
   border-radius: 10px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.08); /* profondità discreta */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
 }
 
 .container {
@@ -126,7 +126,7 @@ nav a:focus-visible {
 }
 
 /* ======================
-   TIPOGRAFIA
+   TITOLI SEZIONI
 ====================== */
 h2 {
   font-family: 'Playfair Display', serif;
@@ -180,11 +180,8 @@ h2 {
 footer {
   background: #1f1f1f;
   color: #ffffff;
-}
-
-footer .container {
-  padding: 30px 20px;
   text-align: center;
+  padding: 30px 20px;
   font-size: 0.95rem;
 }
 
@@ -192,7 +189,6 @@ footer .container {
    RESPONSIVE
 ====================== */
 @media (max-width: 900px) {
-
   .hero .container,
   .section .container {
     flex-direction: column;
@@ -212,7 +208,6 @@ footer .container {
 }
 
 @media (max-width: 480px) {
-
   .hero h1 {
     font-size: 2.2rem;
   }
@@ -259,22 +254,47 @@ footer .container {
   transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
-.contact-btn.whatsapp {
-  background: #25d366;
-}
-
-.contact-btn.facebook {
-  background: #1877f2;
-}
-
-.contact-btn.instagram {
-  background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af);
-}
+.contact-btn.whatsapp { background: #25d366; }
+.contact-btn.facebook { background: #1877f2; }
+.contact-btn.instagram { background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af); }
+.contact-btn.email { background: #ff5a5f; }
 
 .contact-btn:hover,
 .contact-btn:focus-visible {
   transform: translateY(-3px);
   box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  outline: none;
+}
+
+/* ======================
+   ORARI
+====================== */
+.opening-hours {
+  background: #f8f7f4;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.hours-intro {
+  margin-bottom: 20px;
+  font-size: 1.05rem;
+}
+
+.hours-link {
+  display: inline-block;
+  padding: 14px 25px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #ffffff;
+  background: #1f1f1f;
+  border-radius: 6px;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.hours-link:hover,
+.hours-link:focus-visible {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
   outline: none;
 }
 
