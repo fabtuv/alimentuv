@@ -1,4 +1,4 @@
-﻿<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.alimentuv.it/en.html</loc>
   </url>
@@ -28,6 +28,12 @@
   </url>
   <url>
     <loc>https://www.alimentuv.it/index.html</loc>
+  </url>
+  <url>
+    <loc>https://www.alimentuv.it/aglio-nero-umami.html</loc>
+  </url>
+  <url>
+    <loc>https://www.alimentuv.it/umami-black-garlic.html</loc>
   </url>
   <url>
     <loc>https://www.alimentuv.it/pasta.html</loc>
