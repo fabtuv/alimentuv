@@ -369,3 +369,32 @@ footer {
     right: 30px;
   }
 }
+
+/* ======================
+   LINK PRODOTTI (UNIFORMI AL TESTO)
+====================== */
+.product-link {
+  text-decoration: none; /* rimuove sottolineatura */
+  color: inherit;        /* colore testo normale */
+  transition: color 0.25s ease;
+}
+
+.product-link:hover,
+.product-link:focus-visible {
+  color: #2b2b2b;        /* leggero scurimento al passaggio */
+  text-decoration: none;
+  outline: none;
+}
+
+/* ======================
+   LINK INTERNI H2/P (opzionale hover elegante)
+====================== */
+.product-link h2,
+.product-link p {
+  transition: color 0.25s ease;
+}
+
+.product-link:hover h2,
+.product-link:hover p {
+  color: #1a1a1a; /* leggero scuro per evidenziare hover */
+}
